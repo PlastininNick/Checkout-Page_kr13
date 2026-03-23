@@ -1,12 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /*body{*/
 /*    background:yellow;*/
 /*}*/
 @import "tailwindcss";
 
 @theme{
-    --chat-main-color: #212121;
-    --chat-user-massage-color: #2e2e2e;
+    --gray-blue-text: #818EA1;
+    --gray-light: #DBDDE3;
+    --red-main: #E23710;
+    --gray-dark-text-chek: #525252;
+    --gray-main: #737373;
+    --main-bound: #D4D4D4;
+    --blue: #415BE7;
+    --blue6: #415BE70F;
+    --blue-dark: rgb(47, 69, 185);
+    --font-Helvetica: "Roboto", sans-serif;
+
+    --chat-user-massage-color: #7bbd66;
+    --text-shadow-1: 0 4px 4px rgba(0, 0, 0 ,0.25);
+    --text-shadow-2: 0 4px 4px rgba(0, 0, 0 ,0.25);
+    --text-shadow-3: 0 4px 4px rgba(0, 0, 0 ,0.25);
 }
+/* Shipping */
+
+
+
+
+
+
 @layer utilities {
     .gray-custom-scrollbar {
         scrollbar-width: thin;
@@ -30,6 +51,8 @@
     }
 
 }
+
+
 /*:root {*/
 /*    --sidebar-with: 261px;*/
 /*}*/

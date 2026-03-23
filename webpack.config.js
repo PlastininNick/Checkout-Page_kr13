@@ -6,6 +6,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource', // Копирует файлы в выходную папку
+            },
+            {
                 test: /\.css$/i,
                 use: ["style-loader",
                     "css-loader",
